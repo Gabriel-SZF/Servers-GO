@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a23;
+    color: white;
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f;
+    padding: 10px 20px;
+}
+.titulo {
+    color: rgb(161, 106, 3);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.fundo {
+    background: url('fundo.png') no-repeat center center/cover;
+    height: 800px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay h2 {
+    font-size: 2em;
+}
+.modos, .loja {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0a0a23;
+    height: 400px;
+}
+ul{
+    list-style: none;
+}
+.aluguel{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #001f3f;
+    height: 400px;
+}
+.botões button {
+    background-color: rgb(139, 92, 5);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button {
+    background-color: rgb(139, 92, 5);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+footer {
+    background-color: #001f3f;
+    padding: 20px;
+    text-align: center;
+}
+.columns {
+    display: flex;
+    justify-content: space-around;
+}

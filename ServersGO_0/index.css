@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a23;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 39, 168, 1);
+    padding: 10px 20px;
+    border-bottom: 5px solid #e74c3c;
+}
+.titulo {
+    color: rgb(255, 72, 0);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px; 
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fundo {
+    background: url('fundo.png') no-repeat center center/cover;
+    height: 800px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay h2 {
+    font-size: 2em;
+}
+.modos, .loja {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:rgba(7, 3, 49, 1);
+    height: 400px;
+}
+ul{
+    list-style: none;
+}
+.aluguel{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(8, 3, 60, 1);
+    height: 400px;
+}
+.botões button {
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 10px 20px;
+    margin: 60px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+button {
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 10px 20px;
+    margin: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+footer {
+    background-color: rgba(8, 3, 60, 1);
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid rgb(255, 72, 0);
+}
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 15px;
+}
+input[type="submit"] {
+    background-color: rgb(255, 72, 0);
+    color: white;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 15%;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #e65400;
+}
+label {
+            font-size: 2rem;
+            font-weight: 600;
+            color: rgb(255, 72, 0);
+            margin-bottom: 8px;
+            display: inline-flex;
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #0075c4;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+        .error {
+            color: #d34e02;
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .success {
+            color: #388E3C;
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 10px;
+        }
